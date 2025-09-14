@@ -1,37 +1,36 @@
 # project-day-15
-# COVID-19 Data Analysis 
+# YouTube Subscribers Data Analysis
 
-A **Python project** that analyzes early COVID-19 dataset trends using **pandas, matplotlib, and seaborn**.  
-This project focuses on **data cleaning, statistical summaries, and visualization** to uncover insights from the data.  
+A **Python project** that explores YouTube subscriber data using **pandas, matplotlib, and seaborn**.  
+This project focuses on **data cleaning, correlation, and visualization**, styled with YouTube’s red-and-black theme.  
 
 ---
 
 ## Features  
 
--  Load and explore the COVID-19 dataset (shape, data types, summary stats)  
--  Detect missing values and duplicate entries  
--  Analyze categorical columns with value counts  
--  Generate a **correlation heatmap** for numeric features  
--  Visualize **distributions, boxplots, and countplots**  
--  Apply a clean dark background style for plots  
+-  Load and explore YouTube subscriber dataset (shape, info, stats)  
+-  Check missing values, duplicates, and unique counts  
+-  Analyze categorical features with value counts  
+-  Generate a **correlation heatmap** for numeric metrics  
+-  Visualize **distributions, boxplots, and countplots** with YouTube theme colors  
 
 ---
 
 ## Technologies Used  
 
 - **Python 3** – Core programming language  
-- **pandas** – Data cleaning and preprocessing  
-- **matplotlib** – Visualizations  
-- **seaborn** – Advanced statistical plots  
+- **pandas** – Data cleaning and analysis  
+- **matplotlib** – Plotting library  
+- **seaborn** – Advanced visualizations  
 
 ---
 
 ## Project Structure  
 
-covid-analysis/  
-│── covid_analysis.py      # Main analysis script  
-│── covid_dataset.csv      # Dataset file  
-│── README.md              # Documentation  
+youtube-analysis/  
+│── youtube_analysis.py     # Main script  
+│── yt_subscribers.csv      # Dataset file  
+│── README.md               # Documentation  
 
 ---
 
@@ -41,29 +40,29 @@ covid-analysis/
 2. Install dependencies:  
    ```bash
    pip install pandas matplotlib seaborn
-Download the dataset (CSV file).
+Download the dataset yt_subscribers.csv.
 
-Update the file path in the script to match your dataset location.
+Update the CSV path in the script if needed.
 
 Run the script:
 
 bash
 Copy code
-python covid_analysis.py
+python youtube_analysis.py
 Example Analysis
-Dataset Summary → Shape, data types, unique values, and missing values
+Dataset Summary → Info, describe, missing values, duplicates
 
-Correlation Heatmap → Visualizing relationships between numeric features
+Correlation Heatmap → Relationships between YouTube channel metrics
 
-Histograms & KDE plots → Distribution of numerical columns
+Histograms → Subscriber and view distributions
 
-Boxplots → Outlier detection and data spread
+Boxplots → Spread and outlier detection
 
-Countplots → Frequency of categorical values
+Countplots → Categorical breakdown of content
 
 ## Output
 
-<img width="1175" height="927" alt="Screenshot 2025-09-14 015458" src="https://github.com/user-attachments/assets/b2a0528a-eacc-4aef-8015-9ded99d26667" />
+<img width="1157" height="932" alt="Screenshot 2025-09-14 155920" src="https://github.com/user-attachments/assets/c2033751-def5-4739-b9a6-156c7d96180b" />
 
 Author
 Swara Gharat
